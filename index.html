@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Layout Float</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- La parte superiore divisa in una zona brand rosa e una nav senape-->
     <header>
 
         <div class="contenitore">
-            <div class="brand rosa"></div>
-            <div class="nav senape"></div>
+            <div class="brand-rosa"></div>
+            <div class="nav-senape"></div>
         </div>
         
     </header>
 <!-- Creata la struttura dove presente un div superiore e tre colonne con due aside e un section centrale -->
 
-    <main>
-        <div class="contenitore blue">
-            <div class="superiore uno"></div>
-            <div class="colonne">
-                <div class="aside due"></div>
-                <div class="centrale tre"></div>
-                <div class="aside quattro"></div>
-            </div>
-        </div>
-        
-    </main>
+<main>
+    <div class="contenitore blue-main">
+        <!-- Parte superiore del main -->
+        <div class="superiore"></div>
 
-    <footer>
-        <div class="contenitore">
-            <div class="footer viola"></div>
+        <!-- Parte di main divisa su tre colonne con float in css -->
+       
+        <div class="centrale-main">
+            <div class="aside-sinistra"></div>
+            <div class="centro"></div>
+            <div class="aside-destra"></div>
         </div>
-    </footer>
+    </div>
+    
+</main>
+
+<footer>
+    <div class="contenitore">
+        <div class="viola"></div>
+    </div>
+</footer>
 
 
     
