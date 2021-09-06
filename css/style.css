@@ -57,14 +57,16 @@ footer {
 
 /* divisa con float in tre aree */
 
-.aside-sinistra{
+.aside-sinistra, .aside-destra {
      width: 18%;
      height: 400px;
      float: left;
      background-color: #6495ED;
      margin-top: 20px;
-     margin-right: 2%;
+     
  }
+ .aside-sinistra {margin-right: 2%; }
+ .aside-destra {margin-left: 2%;}
 
  .centro {
      width: 60%;
@@ -74,14 +76,7 @@ footer {
      margin-top: 20px;
  }
 
- .aside-destra {
-     width: 18%;
-     height: 400px;
-     float: left;
-     background-color: #6495ED;
-     margin-top: 20px;
-     margin-left: 2%;
- }
+ 
 /* Utilizzo after e clearfix per mostrare il contenitore blu */
  
 .centrale-main::after {
